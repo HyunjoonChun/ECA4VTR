@@ -4,7 +4,7 @@ from transformers.models.clip.configuration_clip import CLIPConfig
 
 from .clip import CLIPModel
 from .moe_fusion import ECSModule
-
+print("hello")
 
 class VideoClipMoeCrossAttentionModel(nn.Module):
     def __init__(self, config, *args, **kwargs):
